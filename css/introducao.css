@@ -1,0 +1,77 @@
+.container {
+	max-width: 1200px;
+	padding: 40px 20px;
+	margin: 0 auto;
+	display: grid;
+
+	/* duas colunas, sendo a segunda com o dobro de tamanho da primeira. o tamanho do conteúdo é respeitado, ou seja, se o conteúdo da primeira coluna for maior que o da segunda, a primeira será maior. */
+	grid-template-columns: 1fr 2fr;
+	gap: 100px;
+}
+
+.introducao {
+	align-items: center;
+}
+
+.introducao h1 {
+	font-size: 4.5rem;
+	line-height: 1.125;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+/* posicionando o detalhe que fica no titulo principal */
+.introducao h1::before {
+	content: "";
+	display: block;
+	width: 128px;
+	height: 100px;
+	background: url("../img/detalhe.svg") no-repeat center;
+	position: absolute;
+	top: -15px;
+	left: -45px;
+	z-index: -1; /* posicionando o elemento atrás do titulo */
+}
+
+.introducao p {
+	font-size: 1.5rem;
+	color: #525252;
+}
+
+@media (max-width: 1000px) {
+	.introducao h1 {
+		font-size: 3rem;
+	}
+}
+
+@media (max-width: 800px) {
+	.introducao {
+		grid-template-columns: 1fr 1fr; /* duas colunas do mesmo tamanho. */
+		gap: 50px;
+	}
+
+	.introducao h1 {
+		font-size: 2rem;
+	}
+
+	.introducao h1::before {
+		width: 35px;
+		height: 10px;
+		left: 0;
+	}
+}
+
+@media (max-width: 400px) {
+	.introducao img {
+		display: none;
+	}
+
+	.introducao {
+		grid-template-columns: 1fr;
+		text-align: center;
+	}
+
+	.introducao h1::before {
+		left: 70px;
+	}
+}
