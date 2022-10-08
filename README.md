@@ -10,6 +10,6 @@
 -   Grid Layout;
 -   HTML Semântico;
 
-<a href="https://wendersonguedez.github.io/">
-    <img src="./img/index.png" alt="Imagem do Projeto Portfolio">
-</a>
+#### Acesse a página <a href="https://wendersonguedez.github.io/"> aqui </a>
+
+<img src="./img/index.png" alt="Imagem do Projeto Portfolio">
