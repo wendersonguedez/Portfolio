@@ -11,6 +11,4 @@
 -   Grid Layout;
 -   HTML Semântico;
 
-#### Acesse a página <a href="https://wendersonguedez.github.io/">clicando aqui.</a>
-
 <img src="./img/index.png" alt="Imagem do Projeto Portfolio">
