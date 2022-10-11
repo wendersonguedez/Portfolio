@@ -7,6 +7,7 @@
 -   Posicionamento de elementos;
 -   Responsividade através de media queries;
 -   Pseudo-classes;
+-   Pseudo-elementos;
 -   Grid Layout;
 -   HTML Semântico;
 
