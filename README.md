@@ -11,6 +11,6 @@
 -   Grid Layout;
 -   HTML Semântico;
 
-<img src="./img/index.png" alt="Imagem do Projeto Portfolio">
-
 #### Resultado final:
+
+<img src="./img/index.png" alt="Imagem do Projeto Portfolio">
