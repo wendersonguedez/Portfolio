@@ -1,6 +1,6 @@
 # Portfolio
 
-#### Pequeno projeto **_front-end_** de portfolio para aplicar conhecimentos de HTML e CSS.
+#### Pequeno projeto **_Front-End_** de portfolio para aplicar conhecimentos de HTML e CSS.
 
 #### Recursos utilizados:
 
